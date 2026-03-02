@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Emulator</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            overflow: hidden;
+        }
+
+        #game {
+            width: 100vw !important;
+            height: 100vh !important;
+            position: fixed !important;
+            top: 0;
+            left: 0;
+        }
+
+        /* TV模式：强制隐藏虚拟按键 */
+        body.tv-mode .ejs_virtualGamepad_container,
+        body.tv-mode .ejs_virtualGamepad_left,
+        body.tv-mode .ejs_virtualGamepad_right,
+        body.tv-mode [class*="virtualGamepad"],
+        body.tv-mode .ejs_parent>div:last-child {
+            display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+            pointer-events: none !important;
+        }
+
+        /* 强制画面填满屏幕，消除黑边 */
+        body.tv-mode canvas {
+            width: 100vw !important;
+            height: 100vh !important;
+            object-fit: fill !important;
+        }
+
+        /* 隐藏底部工具栏在TV模式 */
+        body.tv-mode .ejs_menu_bar,
+        body.tv-mode .ejs_menu_bar_hidden {
+            opacity: 0 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="game"></div>
+    <script>
+        console.log("EmulatorJS Page Initialized");
+
+        function getQueryParam(param) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(param);
+        }
+
+        const core = getQueryParam('core');
+        const gameUrl = getQueryParam('gameUrl');
+        const isTvMode = getQueryParam('tv') === '1';
+
+        // TV模式：给body加class用于CSS控制
+        if (isTvMode) {
+            document.body.classList.add('tv-mode');
+            console.log("TV Mode enabled - hiding virtual gamepad");
+        }
+
+        // 获取当前域名的绝对路径
+        const pathPrefix = window.location.origin + window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+        const dataPath = pathPrefix + 'data/';
+
+        if (core && gameUrl) {
+            window.EJS_player = '#game';
+            window.EJS_core = core;
+            window.EJS_gameUrl = gameUrl;
+            window.EJS_pathtodata = dataPath;
+            window.EJS_startOnLoaded = true;
+            window.EJS_language = 'zh-CN';
+
+            // TV模式专用配置
+            if (isTvMode) {
+                // 完全禁用虚拟手柄
+                window.EJS_VirtualGamepadSettings = {
+                    type: "none",
+                    enabled: false
+                };
+                // 禁用 on-screen gamepad
+                window.EJS_defaultControls = false;
+            }
+
+            // 调试：捕捉加载错误
+            window.EJS_onGameStart = function () {
+                console.log("Game started!");
+
+                // TV模式：游戏启动后再次强制隐藏虚拟手柄并拉伸画面
+                if (isTvMode) {
+                    setTimeout(function () {
+                        // 强制隐藏所有虚拟按键元素
+                        document.querySelectorAll('[class*="virtualGamepad"], [class*="ejs_virtualGamepad"]').forEach(function (el) {
+                            el.style.display = 'none';
+                            el.style.visibility = 'hidden';
+                        });
+
+                        // 让 canvas 填满整个屏幕
+                        var canvases = document.querySelectorAll('canvas');
+                        canvases.forEach(function (canvas) {
+                            canvas.style.width = '100vw';
+                            canvas.style.height = '100vh';
+                            canvas.style.objectFit = 'fill';
+                            canvas.style.position = 'fixed';
+                            canvas.style.top = '0';
+                            canvas.style.left = '0';
+                        });
+
+                        console.log("TV Mode: Virtual gamepad hidden, canvas stretched");
+                    }, 500);
+                }
+            };
+
+            // 核心配置：通过 paths 强制指定本地核心 JS 路径
+            window.EJS_paths = {
+                [core]: dataPath + 'cores/' + core + '.js'
+            };
+
+            window.EJS_Buttons = {
+                playPause: false, restart: false, mute: false, settings: !isTvMode,
+                fullscreen: !isTvMode, saveState: true, loadState: true,
+                gamepad: !isTvMode, turbo: true
+            };
+
+            const script = document.createElement('script');
+            // 加载本地 loader.js
+            script.src = dataPath + 'loader.js';
+            script.onload = () => {
+                console.log("loader.js loaded");
+            };
+            script.onerror = () => {
+                alert("无法加载本地引擎文件！ URL: " + script.src);
+            };
+            document.body.appendChild(script);
+        } else {
+            document.getElementById('game').innerHTML = '<h2 style="color:white;text-align:center;padding-top:20%;">Core or Game URL missing</h2>';
+        }
+    </script>
+</body>
+
+</html>
