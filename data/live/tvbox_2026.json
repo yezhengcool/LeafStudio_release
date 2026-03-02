@@ -1,33 +1,172 @@
 {
   "spider": "https://gitee.com/lwlxh/tvhome/raw/master/pg.jar",
   "sites": [
-    
-    
-    {"key":"豆瓣2","name":"叶峥工作室，有疑问请联系QQ：253493781","type":3,"api":"csp_Douban","searchable":0},
-
+    {
+      "key": "豆瓣2",
+      "name": "叶峥工作室，有疑问请联系QQ：253493781",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
     //动漫
-    {"key": "奇异","name": "奇异动漫","type": 0,"api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/","jar": "https://gitee.com/lwlxh/tvhome/raw/master/pg.jar","searchable": 1,"changeable": 1,"playurl": "json:https://www.iqiyizyjx.com/?url="},
-
+    {
+      "key": "奇异",
+      "name": "奇异动漫",
+      "type": 0,
+      "api": "https://iqiyizyapi.com/api.php/provide/vod/at/xml/",
+      "jar": "https://gitee.com/lwlxh/tvhome/raw/master/pg.jar",
+      "searchable": 1,
+      "changeable": 1,
+      "playurl": "json:https://www.iqiyizyjx.com/?url="
+    },
     //电视、电影
-    {"key": "斗笔","name": "豆瓣1080","type": 0,"api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/","searchable": 1,"changeable": 1,"playurl": "json:https://www.dbjiexi.com:966/jx/?url="},
-    {"key": "茅台","name": "茅台","type": 0,"api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/","searchable": 1,"changeable": 1,"playurl": "json:https://mtjiexi.cc:966/?url="},
-    {"key": "极速资源lz","name": "急速┃影视","type": 1,"api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/?ac=list","searchable": 1,"quickSearch": 1,"filterable": 1,"categories": ["动作片","喜剧片","爱情片","科幻片","恐怖片","剧情片","伦理片","战争片","国产剧","香港剧","韩国剧","欧美剧","记录片","台湾剧","日本剧","海外剧","泰国剧","大陆综艺","港台综艺","日韩综艺","欧美综艺","国产动漫","日韩动漫","欧美动漫","港台动漫","海外动漫","电影解说"]},
-    {"key": "光速资源","name": "🎀光速┃采集","type": 1,"api": "http://api.guangsuapi.com/api.php/provide/vod/","searchable": 1,"changeable": 1,"categories": ["电影","电视剧","综艺","动漫","动作片","喜剧片","爱情片","科幻片","剧情片","恐怖片","战争片","大陆剧","欧美剧","港澳剧","韩剧","动漫电影","日剧","台湾剧","泰剧","记录片","伦理片","体育赛事",、"短剧"]},
-    {"key": "豪华资源","name": "豪华资源","type": 1,"api": "https://hhzyapi.com/api.php/provide/vod/?ac=list","searchable": 1,"quickSearch": 1,"categories": ["内地剧","香港剧","欧美剧","韩剧","日剧","马泰剧","台湾剧","动画片","中国动漫","日本动漫","欧美动漫","剧情片","战争片","动作片","科幻片","记录片","爱情片","喜剧片","灾难片","悬疑片","犯罪片","大陆综艺","日韩综艺","港台综艺","欧美综艺","伦理片"]},
-    {"key": "7ced0073619101d397b5c86fc3578ed4","name": "💥┃火狐2K┃有广","type": 1,"api": "https://hhzyapi.com/api.php/provide/vod/"},
-
-    
+    {
+      "key": "斗笔",
+      "name": "豆瓣1080",
+      "type": 0,
+      "api": "https://caiji.dbzy5.com/api.php/provide/vod/from/dbm3u8/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "playurl": "json:https://www.dbjiexi.com:966/jx/?url="
+    },
+    {
+      "key": "茅台",
+      "name": "茅台",
+      "type": 0,
+      "api": "https://caiji.maotaizy.cc/api.php/provide/vod/from/mtm3u8/at/xml/",
+      "searchable": 1,
+      "changeable": 1,
+      "playurl": "json:https://mtjiexi.cc:966/?url="
+    },
+    {
+      "key": "极速资源lz",
+      "name": "急速┃影视",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "伦理片",
+        "战争片",
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "记录片",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "电影解说"
+      ]
+    },
+    {
+      "key": "光速资源",
+      "name": "🎀光速┃采集",
+      "type": 1,
+      "api": "http://api.guangsuapi.com/api.php/provide/vod/",
+      "searchable": 1,
+      "changeable": 1,
+      "categories": [
+        "电影",
+        "电视剧",
+        "综艺",
+        "动漫",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "剧情片",
+        "恐怖片",
+        "战争片",
+        "大陆剧",
+        "欧美剧",
+        "港澳剧",
+        "韩剧",
+        "动漫电影",
+        "日剧",
+        "台湾剧",
+        "泰剧",
+        "记录片",
+        "伦理片",
+        "体育赛事",、"短剧"
+      ]
+    },
+    {
+      "key": "豪华资源",
+      "name": "豪华资源",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/?ac=list",
+      "searchable": 1,
+      "quickSearch": 1,
+      "categories": [
+        "内地剧",
+        "香港剧",
+        "欧美剧",
+        "韩剧",
+        "日剧",
+        "马泰剧",
+        "台湾剧",
+        "动画片",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫",
+        "剧情片",
+        "战争片",
+        "动作片",
+        "科幻片",
+        "记录片",
+        "爱情片",
+        "喜剧片",
+        "灾难片",
+        "悬疑片",
+        "犯罪片",
+        "大陆综艺",
+        "日韩综艺",
+        "港台综艺",
+        "欧美综艺",
+        "伦理片"
+      ]
+    },
+    {
+      "key": "7ced0073619101d397b5c86fc3578ed4",
+      "name": "💥┃火狐2K┃有广",
+      "type": 1,
+      "api": "https://hhzyapi.com/api.php/provide/vod/"
+    },
     //公告
-    {"key":"豆瓣1","name":"📢公告❤更新❤","type":3,"api":"csp_Notice","searchable": 1,"jar":"https://ncstatic-file.clewm.net/rsrc/2025/1024/21/de45e84e0e43633f96a15e16a1b84cdc.jpg;md5;012f04743a137a0f4622262ba1007f25","ext": "http://jar.yy.xn--dkw.xn--6qq986b3xl/m/公告?b=9h装🅱h9"}
-
-  
+    {
+      "key": "豆瓣1",
+      "name": "📢公告❤更新❤",
+      "type": 3,
+      "api": "csp_Notice",
+      "searchable": 1,
+      "jar": "https://ncstatic-file.clewm.net/rsrc/2025/1024/21/de45e84e0e43633f96a15e16a1b84cdc.jpg;md5;012f04743a137a0f4622262ba1007f25",
+      "ext": "http://jar.yy.xn--dkw.xn--6qq986b3xl/m/公告?b=9h装🅱h9"
+    }
   ],
   "lives": [
     {
       "name": "XIUTAN",
       "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
       "type": 0,
-      "url": "https://yezheng.dpdns.org/tv/ydtv.txt",
+      "url": "https://gcore.jsdelivr.net/gh/yezhengcool/LeafStudio_release@main/data/live/ydtv.txt",
       "playerType": 1
     },
     {
