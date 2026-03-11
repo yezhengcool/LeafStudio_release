@@ -198,6 +198,8 @@ http://20.253.1.29/PLTV/88888888/224/3221225882/10000100000000060000000001558308
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://upload.112114.xyz/logo/CCTV4.png" group-title="📺央视",CCTV-4 中文国际
 http://120.76.248.139/live/bfgd/4200000063.m3u8$阿里云1080P
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://upload.112114.xyz/logo/CCTV4.png" group-title="📺央视",CCTV-4 中文国际
+http://74.91.26.218:82/live/cctv4hd.m3u8
+#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://upload.112114.xyz/logo/CCTV4.png" group-title="📺央视",CCTV-4 中文国际
 http://www.xk8.top:8001/udp/239.254.103.155:9004$全网通
 #EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://upload.112114.xyz/logo/CCTV4.png" group-title="📺央视",CCTV-4 中文国际
 http://swtyc.f3322.org:8880/udp/239.253.157.155:9004$全网通
@@ -217,6 +219,8 @@ http://20.253.1.8/PLTV/88888888/224/3221225862/10000100000000060000000001067915_
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="📺央视",CCTV-5 体育
 http://120.76.248.139/live/bfgd/4200000064.m3u8$阿里云1080P
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="📺央视",CCTV-5 体育
+http://74.91.26.218:82/live/cctv5hd.m3u8
+#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="📺央视",CCTV-5 体育
 http://u.igeizhe.com:2000/udp/238.1.78.175:7272$全网通
 #EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://upload.112114.xyz/logo/CCTV5.png" group-title="📺央视",CCTV-5 体育
 http://hls-pull-triviagame.speedws.com/live/ca87e3c69bbd138fd0c2148bb3d79e80.m3u8$测试源 1080P
@@ -226,6 +230,8 @@ http://120.40.39.246:352/newlive/live/hls/5/live.m3u8$测试源3 1080P
 
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="📺央视",CCTV-5+ 体育赛事
 http://120.76.248.139/live/bfgd/4200000246.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="📺央视",CCTV-5+ 体育赛事
+http://74.91.26.218:82/live/cctv5p.m3u8
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="📺央视",CCTV-5+ 体育赛事
 http://swtyc.f3322.org:8880/udp/239.253.157.99:8568
 #EXTINF:-1 tvg-id="CCTV5+" tvg-name="CCTV5+" tvg-logo="https://upload.112114.xyz/logo/CCTV5+.png" group-title="📺央视",CCTV-5+ 体育赛事
@@ -237,6 +243,8 @@ http://120.40.39.246:352/newlive/live/hls/6/live.m3u8$测试源3 1080P
 http://20.253.1.8/PLTV/88888888/224/3221225863/10000100000000060000000001067916_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://upload.112114.xyz/logo/CCTV6.png" group-title="📺央视",CCTV-6 电影
 http://120.76.248.139/live/bfgd/4200000065.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://upload.112114.xyz/logo/CCTV6.png" group-title="📺央视",CCTV-6 电影
+http://74.91.26.218:82/live/cctv6hd.m3u8
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://upload.112114.xyz/logo/CCTV6.png" group-title="📺央视",CCTV-6 电影
 http://u.igeizhe.com:2000/udp/238.1.78.172:7248$全网通
 #EXTINF:-1 tvg-id="CCTV6" tvg-name="CCTV6" tvg-logo="https://upload.112114.xyz/logo/CCTV6.png" group-title="📺央视",CCTV-6 电影
@@ -250,6 +258,8 @@ http://120.40.39.246:352/newlive/live/hls/7/live.m3u8$测试源3 1080P
 http://20.253.1.18/PLTV/88888888/224/3221225887/10000100000000060000000001558688_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://upload.112114.xyz/logo/CCTV7.png" group-title="📺央视",CCTV-7 国防军事
 http://120.76.248.139/live/bfgd/4200000127.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://upload.112114.xyz/logo/CCTV7.png" group-title="📺央视",CCTV-7 国防军事
+http://74.91.26.218:82/live/cctv7hd.m3u8
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://upload.112114.xyz/logo/CCTV7.png" group-title="📺央视",CCTV-7 国防军事
 http://www.dwphic.com:9999/udp/239.69.1.103:10256$全网通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://upload.112114.xyz/logo/CCTV7.png" group-title="📺央视",CCTV-7 国防军事
@@ -267,6 +277,9 @@ http://20.253.1.30/PLTV/88888888/224/3221225864/10000100000000060000000001067917
 http://iptv.huuc.edu.cn/hls/cctv8hd.m3u8$全网通1080P
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://upload.112114.xyz/logo/CCTV8.png" group-title="📺央视",CCTV-8 电视剧
 http://120.76.248.139/live/bfgd/4200000066.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://upload.112114.xyz/logo/CCTV8.png" group-title="📺央视",CCTV-8 电视剧
+http://74.91.26.218:82/live/cctv8hd.m3u8
+#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://upload.112114.xyz/logo/CCTV8.png" group-title="📺央视",CCTV-8 电视剧
 http://183.222.242.31:8088/hls/8/index.m3u8$测试源1 1080P
 http://sh.lnott.top:880/dx08.m3u8$测试源2 1080P
 http://120.40.39.246:352/newlive/live/hls/9/live.m3u8$测试源3 1080P
@@ -275,6 +288,8 @@ http://120.40.39.246:352/newlive/live/hls/9/live.m3u8$测试源3 1080P
 http://20.253.1.17/PLTV/88888888/224/3221225888/10000100000000060000000001558690_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://upload.112114.xyz/logo/CCTV9.png" group-title="📺央视",CCTV-9 记录
 http://120.76.248.139/live/bfgd/4200000128.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://upload.112114.xyz/logo/CCTV9.png" group-title="📺央视",CCTV-9 记录
+http://74.91.26.218:82/live/cctv9hd.m3u8
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://upload.112114.xyz/logo/CCTV9.png" group-title="📺央视",CCTV-9 记录
 http://www.dwphic.com:9999/udp/239.69.1.104:10262$全网通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV9" tvg-name="CCTV9" tvg-logo="https://upload.112114.xyz/logo/CCTV9.png" group-title="📺央视",CCTV-9 记录
@@ -287,6 +302,8 @@ http://120.40.39.246:352/newlive/live/hls/10/live.m3u8$测试源4 1080P
 http://20.253.1.16/PLTV/88888888/224/3221225889/10000100000000060000000001558694_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://upload.112114.xyz/logo/CCTV10.png" group-title="📺央视",CCTV-10 科教
 http://120.76.248.139/live/bfgd/4200000129.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://upload.112114.xyz/logo/CCTV10.png" group-title="📺央视",CCTV-10 科教
+http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://upload.112114.xyz/logo/CCTV10.png" group-title="📺央视",CCTV-10 科教
 http://www.dwphic.com:9999/udp/239.69.1.105:10268$全网通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://upload.112114.xyz/logo/CCTV10.png" group-title="📺央视",CCTV-10 科教
@@ -304,6 +321,8 @@ http://20.253.1.38/PLTV/88888888/224/3221226034/10000100000000060000000002233116
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://upload.112114.xyz/logo/CCTV11.png" group-title="📺央视",CCTV-11 戏曲
 http://120.76.248.139/live/bfgd/4200000130.m3u8$阿里云1080P
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://upload.112114.xyz/logo/CCTV11.png" group-title="📺央视",CCTV-11 戏曲
+http://74.91.26.218:82/live/cctv11hd.m3u8
+#EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://upload.112114.xyz/logo/CCTV11.png" group-title="📺央视",CCTV-11 戏曲
 http://www.dwphic.com:9999/udp/239.69.1.154:10560$全网通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV11" tvg-name="CCTV11" tvg-logo="https://upload.112114.xyz/logo/CCTV11.png" group-title="📺央视",CCTV-11 戏曲
 http://play.kankanlive.com/live/1698423476198918.m3u8$全网通600P
@@ -316,6 +335,8 @@ http://120.40.39.246:352/newlive/live/hls/12/live.m3u8$测试源3 1080P
 http://20.253.1.16/PLTV/88888888/224/3221225890/10000100000000060000000001558689_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://upload.112114.xyz/logo/CCTV12.png" group-title="📺央视",CCTV-12 社会与法
 http://120.76.248.139/live/bfgd/4200000131.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://upload.112114.xyz/logo/CCTV12.png" group-title="📺央视",CCTV-12 社会与法
+http://74.91.26.218:82/live/cctv12hd.m3u8
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://upload.112114.xyz/logo/CCTV12.png" group-title="📺央视",CCTV-12 社会与法
 http://www.dwphic.com:9999/udp/239.69.1.106:10274$全网通1080P
 #EXTINF:-1 tvg-id="CCTV12" tvg-name="CCTV12" tvg-logo="https://upload.112114.xyz/logo/CCTV12.png" group-title="📺央视",CCTV-12 社会与法
@@ -332,6 +353,8 @@ http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8$全网通1080P
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://upload.112114.xyz/logo/CCTV13.png" group-title="📺央视",CCTV-13 新闻
 http://120.76.248.139/live/bfgd/4200000067.m3u8$阿里云1080P
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://upload.112114.xyz/logo/CCTV13.png" group-title="📺央视",CCTV-13 新闻
+http://74.91.26.218:82/live/cctv13hd.m3u8
+#EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://upload.112114.xyz/logo/CCTV13.png" group-title="📺央视",CCTV-13 新闻
 http://play.kankanlive.com/live/1698423543275916.m3u8$全网通600P
 #EXTINF:-1 tvg-id="CCTV13" tvg-name="CCTV13" tvg-logo="https://upload.112114.xyz/logo/CCTV13.png" group-title="📺央视",CCTV-13 新闻
 https://cdn3.163189.xyz/163189/cctv13$全网通1080P
@@ -344,6 +367,8 @@ http://120.40.39.246:352/newlive/live/hls/14/live.m3u8$测试源4 1080P
 http://20.253.1.8/PLTV/88888888/224/3221225891/10000100000000060000000001558693_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://upload.112114.xyz/logo/CCTV14.png" group-title="📺央视",CCTV-14 少儿
 http://120.76.248.139/live/bfgd/4200000132.m3u8$阿里云1080P
+#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://upload.112114.xyz/logo/CCTV14.png" group-title="📺央视",CCTV-14 少儿
+http://74.91.26.218:82/live/cctv14hd.m3u8
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://upload.112114.xyz/logo/CCTV14.png" group-title="📺央视",CCTV-14 少儿
 http://www.dwphic.com:9999/udp/239.69.1.107:10280$全网通1080P
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV14" tvg-logo="https://upload.112114.xyz/logo/CCTV14.png" group-title="📺央视",CCTV-14 少儿
@@ -359,12 +384,16 @@ http://20.253.1.38/PLTV/88888888/224/3221226035/10000100000000060000000002233162
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://upload.112114.xyz/logo/CCTV15.png" group-title="📺央视",CCTV-15 音乐
 http://120.76.248.139/live/bfgd/4200000133.m3u8$阿里云1080P
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://upload.112114.xyz/logo/CCTV15.png" group-title="📺央视",CCTV-15 音乐
+http://74.91.26.218:82/live/cctv15hd.m3u8
+#EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://upload.112114.xyz/logo/CCTV15.png" group-title="📺央视",CCTV-15 音乐
 http://play.kankanlive.com/live/1698423607826914.m3u8$全网通600P
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://upload.112114.xyz/logo/CCTV15.png" group-title="📺央视",CCTV-15 音乐
 http://183.222.242.31:8088/hls/15/index.m3u8$测试源1 1080P
 http://sh.lnott.top:880/dx15.m3u8$测试源2 1080P
 http://120.40.39.246:352/newlive/live/hls/16/live.m3u8$测试源3 1080P
 
+#EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://upload.112114.xyz/logo/CCTV16.png" group-title="📺央视",CCTV-16 奥林匹克
+http://74.91.26.218:82/live/cctv16hd.m3u8
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://upload.112114.xyz/logo/CCTV16.png" group-title="📺央视",CCTV-16 奥林匹克
 http://hhska.3322.org:8096/udp/239.93.42.54:5140$电信组播2160phevc
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://upload.112114.xyz/logo/CCTV16.png" group-title="📺央视",CCTV-16 奥林匹克
@@ -383,7 +412,8 @@ http://sh.lnott.top:880/dx201.m3u8$测试源2 1080P
 http://20.253.1.8/PLTV/88888888/224/3221225892/10000100000000060000000001558692_0.smil/01.m3u8?fmt=ts2hls,0,01.m3u8$联通IPTV1080P
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://upload.112114.xyz/logo/CCTV17.png" group-title="📺央视",CCTV-17 农业农村
 http://120.76.248.139/live/bfgd/4200000204.m3u8$阿里云1080P
-
+#EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://upload.112114.xyz/logo/CCTV17.png" group-title="📺央视",CCTV-17 农业农村
+http://74.91.26.218:82/live/cctv17hd.m3u8
 http://iptv.morefun.cn/sttv/cctv/ysxw/cctv.php?id=cctv17$测试源1 1080P
 http://sh.lnott.top:880/dx17.m3u8$测试源2 1080P
 #EXTINF:-1 tvg-id="CCTV-怀旧剧场" tvg-name="CCTV-怀旧剧场" tvg-logo="https://upload.112114.xyz/logo/CCTV-怀旧剧场.png" group-title="📺央视",CCTV-怀旧剧场
