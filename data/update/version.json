@@ -2,6 +2,6 @@
     "versionCode": 504,
     "versionName": "2.1.8.23",
     "downloadUrl": "https://ghfast.top/https://github.com/yezhengcool/LeafStudio_release/releases/download/V2.1.8.23/LeafStudio_v2.1.8.23.apk",
-    "description": "发布日期：2026年4月22日\nV2.1.8.23(503):\n1.修复 Live 播放 - 切换线路时，会偶尔卡在官网源上无法播放的问题(Android 11) 。",
+    "description": "发布日期：2026年4月22日\nV2.1.8.23(504):\n1.修复 Live 播放 - 切换线路时，会偶尔卡在官网源上无法播放的问题(Android 11) 。",
     "forceUpdate": false
 }
