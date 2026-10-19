@@ -1,7 +1,7 @@
 {
-    "versionCode": 506,
-    "versionName": "2.1.8.26",
-    "downloadUrl": "https://github.com/yezhengcool/LeafStudio_release/releases/download/V2.1.8.26/LeafStudio_v2.1.8.26.apk",
-    "description": "发布日期：2026年8月31日\nV2.1.8.26(506):\n1.新增 “全网通自建源”。\n2.日常Bug修复更新优化。",
+    "versionCode": 507,
+    "versionName": "2.1.8.27",
+    "downloadUrl": "https://github.com/yezhengcool/LeafStudio_release/releases/download/V2.1.8.27/LeafStudio_v2.1.8.27.apk",
+    "description": "发布日期：2026年8月31日\nV2.1.8.26(506):\n1.网络源播放体验大幅优化。\n2.网页台画面适配与净化完善。\n3.新增 RTMP 直播流原生解码通道",
     "forceUpdate": false
 }
