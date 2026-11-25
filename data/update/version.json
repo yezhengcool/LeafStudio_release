@@ -3,6 +3,6 @@
     "versionName": "2.1.8.28",
     "downloadUrl": "https://github.com/yezhengcool/LeafStudio_release/releases/download/V2.1.8.28/LeafStudio_v2.1.8.28.apk",
     "liteDownloadUrl": "https://github.com/yezhengcool/LeafStudio_release/releases/download/V2.1.8.28/LeafStudio_v2.1.8.28_lite.apk",
-    "description": "发布日期：2026年11月25日\nV2.1.8.28(508):\n1.UI界面全面更新，仿iOS动态风格沉浸式体验。\n2.重构 RTSP 协议底层传输流，修复部分机型无法正常播放。\n3.修复'央视网'官网源在机顶盒上无法正常播放。",
+    "description": "发布日期：2026年11月25日\nV2.1.8.28(508):\n1.UI界面全面更新，仿iOS动态风格沉浸式体验。\n2.重构 RTSP 协议底层传输流，修复部分机型无法正常播放。\n3.修复\"央视网\"官网源在机顶盒上无法正常播放。",
     "forceUpdate": false
 }
